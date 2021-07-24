@@ -1,7 +1,7 @@
 // single-type-import declaration
-import garden.vagitable.VineVegetable;
+//import garden.vagitable.VineVegetable;
 // type-import-on-demand declaration
-import garden.*; // will import vagitable package not classes inside it
+//import garden.*; // will import classes in garden package not classes from garden.vagitable
 import garden.vagitable.*;
 import nursery.vegetable.*;
 // creates import conflict. will work if single-type-import is uncommented
