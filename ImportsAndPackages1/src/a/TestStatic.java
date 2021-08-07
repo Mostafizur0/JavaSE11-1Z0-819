@@ -25,13 +25,13 @@ public class TestStatic {
         new StaticImportTest1().printUniqueStatement();
 
         // APP_NAME in line below qualified by class name
-        System.out.println("APP_NAME = " + StaticImportTest2.APP_NAME);
+        //System.out.println("APP_NAME = " + StaticImportTest2.APP_NAME);
 
         // log method in line below qualified by class name
-        StaticImportTest2.log("This is StaticImportTest");
+       // StaticImportTest2.log("This is StaticImportTest");
 
         // We instantiate StaticImportTest2() and execute a method on it
-        new StaticImportTest2().printUniqueStatement();
+      //  new StaticImportTest2().printUniqueStatement();
 
     }
 }
